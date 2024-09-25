@@ -1,0 +1,37 @@
+form {
+    max-width: 420px;
+    margin: 40px ;
+    padding: 20px;
+    background-color: #f9f9f9;
+   
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"] {
+    width: 400px;
+    height: 40px;
+    padding: 0 0 0 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button[type="submit"] {
+    background-color: #0f00dd;
+    color: #fff;
+    padding: 20px 20px;
+    width: 420px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #0f00dd;
+  }
+  #error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
